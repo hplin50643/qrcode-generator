@@ -4,7 +4,7 @@
 
 An English-language, mobile-friendly QR code studio. Turn a website address into a crisp, customizable QR code, entirely in your browser.
 
-**Production URL:** [root50643.github.io/qrcode-generator](https://root50643.github.io/qrcode-generator/) · **Hosting:** GitHub Pages
+**Production URL:** [hplin50643.github.io/qrcode-generator](https://hplin50643.github.io/qrcode-generator/) · **Hosting:** GitHub Pages
 
 ![NUU QR desktop interface showing a generated QR code](docs/images/desktop.png)
 
@@ -102,7 +102,7 @@ In the repository's **Settings → Pages**, choose **GitHub Actions** as the bui
 
 The workflow reads `actions/configure-pages` output and supplies `BASE_PATH` to Vite. Assets, the manifest, and the service worker use `/qrcode-generator/` for the production project URL. Local builds default to `/`; set `BASE_PATH=/qrcode-generator/` to reproduce the production build.
 
-The site uses GitHub's default HTTPS address, **https://root50643.github.io/qrcode-generator/**. Leave **Custom domain** empty in **Settings → Pages** and keep **Enforce HTTPS** enabled. No custom domain or DNS configuration is required.
+The site uses GitHub's default HTTPS address, **https://hplin50643.github.io/qrcode-generator/**. Leave **Custom domain** empty in **Settings → Pages** and keep **Enforce HTTPS** enabled. No custom domain or DNS configuration is required.
 
 ## Source and license
 
